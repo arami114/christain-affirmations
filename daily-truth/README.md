@@ -1,12 +1,24 @@
-# React + Vite
+# 📖 Daily truth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Daily Truth is a simple, faith-based web app built with **React**, **Vite**, and **TailwindCSS**.  
+It provides daily Scripture-based affirmations, lets users save favourites, and allows them to share their own affirmations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Daily Verse** – Get a new KJV Bible verse each day from an online API (with offline fallback)
+- **Favourites** – Save verses you love to your personal list (stored in localStorage)
+- **Submit Page** – Share your own affirmations and references
+- **Responsive Design** – Fully responsive with TailwindCSS
+- **Offline Fallback** – Shows preloaded verses if the API is unavailable
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** React + Vite
+- **Styling:** TailwindCSS
+- **Routing:** React Router DOM
+- **Testing:** Vitest + Testing Library + JSDOM
+- **State & Storage:** useState + localStorage
+- **API:** [Bible API](https://bible-api.com)
+
