@@ -26,7 +26,7 @@ export default function Favourites() {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {favourites.map((v, i) => (
-            <div key={i} className="bg-white p-4 rounded-lg border border-gray-100">
+            <div key={i} className="bg-black p-4 rounded-lg border border-gray-100">
               <div className="font-semibold">{v.text}</div>
               <div className="text-sm text-gray-600">{v.reference}</div>
               <div className="mt-2">
