@@ -22,7 +22,7 @@ export default function Favourites() {
     <div>
       <h2 className="text-3xl font-serif text-center my-4">Favourites</h2>
       {favourites.length === 0 ? (
-        <div className="card">You haven\'t saved any affirmations yet.</div>
+        <div className="card">You haven\'t saved any verse  yet.</div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {favourites.map((v, i) => (

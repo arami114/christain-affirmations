@@ -18,7 +18,7 @@ export default function App() {
           <Route path="/submit" element={<Submit />} />
         </Routes>
         <div className="text-center text-sm text-gray-600 mt-4">
-          Built with ❤️ using React — Oyinlade Aramide
+          Built with love❤️ -Oyinlade Aramide
         </div>
       </div>
     </div>

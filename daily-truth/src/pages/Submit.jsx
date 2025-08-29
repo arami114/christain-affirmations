@@ -24,7 +24,7 @@ export default function Submit() {
 
   return (
     <div>
-      <h2 className="text-3xl font-serif text-center my-4">Submit an Affirmation</h2>
+      <h2 className="text-3xl font-serif text-center my-4">Submit a verse that you love.</h2>
       <form onSubmit={handle} className="card">
         <label className="block mb-2 font-semibold">Affirmation</label>
         <textarea className="w-full border rounded-lg p-2" rows={4} value={text} onChange={(e) => setText(e.target.value)} />
