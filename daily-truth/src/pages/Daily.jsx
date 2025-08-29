@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import VerseCard from '../components/versecard'
+import VerseCard from '../components/VerseCard';
 
 // Helper to get YYYY-MM-DD
 function todayKey() {
