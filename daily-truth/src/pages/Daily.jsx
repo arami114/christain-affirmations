@@ -32,7 +32,6 @@ export default function Daily() {
     }
 
     // Attempt to fetch a random KJV verse.
-    // NOTE: If the endpoint ever changes, the fallback ensures the UI still renders.
     fetch('https://bible-api.com/data/kjv/random')
       .then((r) => r.json())
       .then((data) => {

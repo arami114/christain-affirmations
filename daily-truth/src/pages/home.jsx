@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h1 className="text-3xl font-serif text-center my-4">Start Your Day with God's Word</h1>
       <div className="card">
-        <p className="text-lg">Welcome to Daily Light, a simple place to receive short, Scripture-based affirmations to encourage your walk with Christ.</p>
+        <p className="text-lg">Welcome to Daily truth, a simple place to receive short, Scripture-based affirmations and motivations to encourage your walk with Christ.</p>
         <div className="flex gap-2 flex-wrap mt-3">
           <button className="btn btn-primary" onClick={() => navigate('/daily')}>Get Today's Affirmation</button>
           <Link to="/submit" className="btn btn-outline">Share an Affirmation</Link>
